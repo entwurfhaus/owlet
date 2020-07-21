@@ -12,7 +12,7 @@ This is an example Laravel package.
    ````
        'providers' => [
            ...
-           entwurfhaus\owlet\ExampleServiceProvider::class,
+           Entwurfhaus\Owlet\ExampleServiceProvider::class,
            ...
        ],
    ````

@@ -2,7 +2,7 @@
 
 namespace Tests\Unit;
 
-use entwurfhaus\owlet\Models\Example;
+use Entwurfhaus\Owlet\Models\Example;
 use PHPUnit\Framework\TestCase;
 
 class ExampleUnitTest extends TestCase {

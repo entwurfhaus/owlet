@@ -1,9 +1,9 @@
 <?php
 
-namespace entwurfhaus\owlet\Http\Controllers;
+namespace Entwurfhaus\Owlet\Http\Controllers;
 
 use App\Http\Controllers\Controller;
-use entwurfhaus\owlet\Models\Example;
+use Entwurfhaus\Owlet\Models\Example;
 
 class ExampleController extends Controller {
 
