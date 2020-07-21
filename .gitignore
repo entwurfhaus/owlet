@@ -1,0 +1,9 @@
+build
+composer.lock
+/vendor
+/node_modules
+Homestead.json
+Homestead.yaml
+npm-debug.log
+yarn-error.log
+.idea

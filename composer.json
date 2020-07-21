@@ -1,0 +1,55 @@
+{
+    "name": "brifiction/owlet",
+    "description": "An example simple Laravel package",
+    "keywords": [
+        "laravel",
+        "composer",
+        "package"
+    ],
+    "homepage": "https://entwurfhaus.com",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Brian Ng",
+            "email": "brianngchongeu@gmail.com",
+            "homepage": "https://entwurfhaus.com"
+        }
+    ],
+    "require": {
+        "php": "^7.4",
+        "illuminate/database": "^7.0",
+        "illuminate/events": "^7.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^9.2"
+    },
+    "autoload": {
+        "psr-4": {
+            "entwurfhaus\\owlet\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Tests\\Unit\\": "tests/Unit/",
+            "Tests\\Feature\\": "tests/Feature/"
+        }
+    },
+    "config": {
+        "optimize-autoloader": true,
+        "sort-packages": true
+    },
+    "scripts": {
+        "test": [
+            "phpunit tests"
+        ]
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true,
+    "extra": {
+        "laravel": {
+            "providers": [
+                "entwurfhaus\\owlet\\ExampleServiceProvider"
+            ]
+        }
+    }
+}
