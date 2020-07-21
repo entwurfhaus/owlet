@@ -1,6 +1,6 @@
 <?php
 
-namespace entwurfhaus\owlet\Models;
+namespace Entwurfhaus\Owlet\Models;
 
 use Illuminate\Database\Eloquent\Model;
 
