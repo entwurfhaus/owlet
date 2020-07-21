@@ -1,6 +1,6 @@
 # Owlet
-[![Latest Version](https://img.shields.io/github/release/entwurfhaus/owlet.svg?style=flat-square)](https://github.com/entwurfhaus/owlet/releases)
-[![Software License](https://img.shields.io/badge/license-MIT-brightgreen.svg?style=flat-square)](LICENSE.md)
+![Latest Version](https://img.shields.io/github/v/release/entwurfhaus/owlet?style=flat-square)
+![License](https://img.shields.io/github/license/entwurfhaus/owlet?style=flat-square)
 
 This is an example Laravel package.
 
