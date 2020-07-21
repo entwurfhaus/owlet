@@ -16,16 +16,16 @@
         }
     ],
     "require": {
-        "php": "^7.4",
+        "php": "^7.4"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^9.2",
         "illuminate/database": "^7.0",
         "illuminate/events": "^7.0"
     },
-    "require-dev": {
-        "phpunit/phpunit": "^9.2"
-    },
     "autoload": {
         "psr-4": {
-            "entwurfhaus\\owlet\\": "src/"
+            "Entwurfhaus\\Owlet\\": "src/"
         }
     },
     "autoload-dev": {
@@ -48,7 +48,7 @@
     "extra": {
         "laravel": {
             "providers": [
-                "entwurfhaus\\owlet\\ExampleServiceProvider"
+                "Entwurfhaus\\Owlet\\ExampleServiceProvider"
             ]
         }
     }
