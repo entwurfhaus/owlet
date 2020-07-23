@@ -1,6 +1,7 @@
 # Owlet
 ![Latest Version](https://img.shields.io/github/v/release/entwurfhaus/owlet?style=flat-square)
 ![License](https://img.shields.io/github/license/entwurfhaus/owlet?style=flat-square)
+![Website](https://img.shields.io/badge/website-https%3A%2F%2Fentwurfhaus.com-orange\?style=flat-square)
 
 This is an example Laravel package.
 
@@ -20,9 +21,9 @@ This is an example Laravel package.
 1. Type in url [http://localhost:8010/owlet](http://localhost:8010/owlet).
 1. That's it! :thumbsup:
 
-## Website
-company: [https://entwurfhaus.com](https://entwurfhaus.com)
-personal: [https://brianngchongeu.com](https://brianngchongeu.com)
+## License
+
+This project is under the [MIT LICENSE](LICENSE.md).
 
 ## Donate
 
