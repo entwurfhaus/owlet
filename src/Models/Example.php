@@ -5,6 +5,9 @@ namespace Entwurfhaus\Owlet\Models;
 use Illuminate\Database\Eloquent\Model;
 
 class Example extends Model {
+    /**
+     * @var string
+     */
     private string $message;
 
     /**

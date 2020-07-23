@@ -7,8 +7,16 @@ use Entwurfhaus\Owlet\Models\Example;
 
 class ExampleController extends Controller {
 
+    /**
+     * @var string
+     */
     private string $msg;
 
+    /**
+     * Display a listing of the resource.
+     *
+     * @return \Illuminate\Http\Response
+     */
     public function index() {
         $example = new Example('Hello World!');
 
